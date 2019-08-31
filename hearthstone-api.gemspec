@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "https://github.com/DaiAoki/hearthstone-api"
 
-  spec.metadata["homepage_uri"] = "https://hearthstone-app"
+  spec.metadata["homepage_uri"] = "https://hearthstone-app.com"
   spec.metadata["source_code_uri"] = "https://github.com/DaiAoki/hearthstone-api"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
