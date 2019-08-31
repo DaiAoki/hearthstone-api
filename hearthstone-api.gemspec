@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Hearthstone API"
   spec.description   = "Hearthstone API Wrapper by Ruby which presents API client for getting card, deck, metadata and so on. "
-  spec.homepage      = "https://github.com/DaiAoki/hearthstone-api.git"
+  spec.homepage      = "https://github.com/DaiAoki/hearthstone-api"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://github.com/DaiAoki/hearthstone-api"
