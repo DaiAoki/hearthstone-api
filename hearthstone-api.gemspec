@@ -1,10 +1,10 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "hearthstone/api/version"
+require "hearthstone/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hearthstone-api"
-  spec.version       = Hearthstone::Api::VERSION
+  spec.version       = Hearthstone::VERSION
   spec.authors       = ["DaiAoki"]
   spec.email         = ["a.dai.0814ap@gmail.com"]
 
@@ -31,6 +31,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency 'byebug', '~> 9.0', '>= 9.0.6'
-  spec.add_development_dependency 'rubocop', '~> 0.58.1'
+  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "rubocop", "~> 0.58.1"
+  spec.add_development_dependency "dotenv", '~> 2.1', '>= 2.1.1'
+
+  spec.add_dependency "faraday", "~> 0.9.2"
 end
