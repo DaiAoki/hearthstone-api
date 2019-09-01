@@ -13,6 +13,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/DaiAoki/hearthstone-api"
   spec.license       = "MIT"
 
+  spec.required_ruby_version = '>= 2.0.0'
+
   # spec.metadata["allowed_push_host"] = "https://github.com/DaiAoki/hearthstone-api"
 
   spec.metadata["homepage_uri"] = "https://hearthstone-app.com"
