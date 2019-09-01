@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hearthstone-api (1.0.0)
+    hearthstone-api (1.0.1)
       faraday (~> 0.9.2)
 
 GEM
